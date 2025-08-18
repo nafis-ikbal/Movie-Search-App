@@ -1,4 +1,5 @@
 import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 import { BrowserRouter } from "react-router-dom";
 
 export default function Container() {
@@ -6,6 +7,7 @@ export default function Container() {
         <BrowserRouter>
             <>
                 <Header/>
+                <Footer/>
             </>
         </BrowserRouter>
     );
