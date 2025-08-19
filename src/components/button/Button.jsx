@@ -7,8 +7,7 @@ function Button(p_btn) {
                 className={`btn ${p_btn.className}`}
                 onClick={p_btn.onClick}
             >
-                {/* {p_btn.content} */}
-                hello
+                {p_btn.content}
             </button>
         </>
     );
@@ -21,8 +20,7 @@ function OutlineButton(p_btn) {
                 className={`ouline-btn ${p_btn.className}`}
                 onClick={p_btn.onClick}
             >
-                {/* {p_btn.content} */}
-                hello
+                {p_btn.content}
             </button>
         </>
     );
