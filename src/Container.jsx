@@ -1,7 +1,7 @@
 import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
 import { BrowserRouter } from "react-router-dom";
 import Input from "./components/input/Input";
+import { Button, OutlineButton } from "./components/button/Button";
 
 export default function Container() {
     return(
@@ -9,6 +9,8 @@ export default function Container() {
             <>
                 <Header/>
                 <Input/>
+                
+                <OutlineButton/>
             </>
         </BrowserRouter>
     );
