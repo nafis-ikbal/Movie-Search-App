@@ -1,0 +1,26 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    background-color: #B7B7A4;
+    padding: 1.2rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+
+.search {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 2.2rem;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+}

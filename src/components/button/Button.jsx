@@ -4,10 +4,10 @@ function Button(p_btn) {
     return(
         <>
             <button 
-                className={`btn ${p_btn.className}`}
+                className={`btn ${p_btn.className || ""}`}
                 onClick={p_btn.onClick}
             >
-                {p_btn.content}
+                {p_btn.children}
             </button>
         </>
     );
@@ -17,10 +17,10 @@ function OutlineButton(p_btn) {
     return(
         <>
             <button
-                className={`ouline-btn ${p_btn.className}`}
+                className={`outline-btn ${p_btn.className || ""}`}
                 onClick={p_btn.onClick}
             >
-                {p_btn.content}
+                {p_btn.children}
             </button>
         </>
     );

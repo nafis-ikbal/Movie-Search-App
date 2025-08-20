@@ -21,10 +21,10 @@ export default function Header() {
             <ul className="nav">
                 {NavBar.map((elm, idx) => {
                     return (
-                        <li key={idx} >
+                        <li key={idx} className="header-li">
                             <Link to={elm.path}>
                                 <i><FontAwesomeIcon icon={elm.icon}/></i>
-                                <span className={`${idx === active ? "active" : ""}`}>
+                                <span className={`sp ${idx === active ? "active" : ""}`}>
                                     {elm.Name}
                                 </span>
                             </Link>

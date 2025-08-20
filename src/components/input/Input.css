@@ -1,9 +1,10 @@
 input {
-  border: 3px solid #B7B7A4;
-  background-color: transparent;
+  border: 3px solid #FFE8D6;
+  background-color: #FFE8D6;
   padding: 0.5rem 1.5rem;
   font-size: 1.3rem;
-  border-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
   color: black;
   outline: none;
 }

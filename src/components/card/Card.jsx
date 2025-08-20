@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import "./card.css";
-import { Button } from "../button/Button.jsx";
 import * as root from "../../RootPath.js";
 import {category} from "../../api/TMDB_Data.js";
 import { URL } from "../../api/Api.js";
+import CardButton from "../button/CardButton.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
 
@@ -17,13 +17,13 @@ export default function Card(p_card) {
     const poster = URL.w500Image(item.poster_path || item.backdrop_path);
 
     return(
-        <Link to={link}>
+        <Link to={link} className="card">
             <div style={{backgroundImage: `url(${poster})`}} className="bg-img">
-                <Button>
+                <CardButton>
                     <FontAwesomeIcon icon={faCirclePlay} />
-                </Button>
+                </CardButton>
             </div>
-            <h3>{item.title || item.name}</h3>
+            <h3 className="card-h3">{item.title || item.name}</h3>
         </Link>
     );
 }
