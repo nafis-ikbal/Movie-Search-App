@@ -1,7 +1,7 @@
 import Header from "./components/header/Header";
 import { BrowserRouter } from "react-router-dom";
 import "./Container.css";
-import Hr_Slider from "./components/hr_slider/Hr_Slider";
+import VideoContent from "./components/video_popup/VideoContent";
 
 
 export default function Container() {
@@ -9,7 +9,7 @@ export default function Container() {
         <BrowserRouter>
             <div className="mainc">
                 <Header/>
-                <Hr_Slider/>
+                <VideoContent/>
             </div>
         </BrowserRouter>
     );
