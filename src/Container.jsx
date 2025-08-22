@@ -1,7 +1,7 @@
 import Header from "./components/header/Header";
 import { BrowserRouter } from "react-router-dom";
 import "./Container.css";
-import Card_Container from "./components/card_container/Card_Container";
+import Hr_Slider from "./components/hr_slider/Hr_Slider";
 
 
 export default function Container() {
@@ -9,7 +9,7 @@ export default function Container() {
         <BrowserRouter>
             <div className="mainc">
                 <Header/>
-                <Card_Container/>
+                <Hr_Slider/>
             </div>
         </BrowserRouter>
     );
