@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import * as root from "../../RootPath";
+import * as root from "../constant_JS/RootPath";
 import { useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse, faFilm, faTv } from "@fortawesome/free-solid-svg-icons";

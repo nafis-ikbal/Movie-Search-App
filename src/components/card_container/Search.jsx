@@ -2,7 +2,7 @@ import "./card_container.css";
 import { useCallback, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import {Button } from "../button/Button.jsx";
-import * as root from "../../RootPath.js";
+import * as root from "../constant_JS/RootPath.js";
 import Input from "../input/Input.jsx"
 
 export default function Search({category, Keyword}) {
