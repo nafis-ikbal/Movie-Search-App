@@ -1,5 +1,4 @@
 import "./hero_slide.css";
-import {Button} from "../button/Button.jsx";
 import { HeroButton } from "../button/HeroButton.jsx";
 import { URL } from "../../api/Api.js";
 import { useNavigate } from "react-router-dom";
