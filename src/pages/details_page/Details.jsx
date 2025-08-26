@@ -44,13 +44,13 @@ export default function Details() {
             <div className="content-video">
               <h2 className="cont-h2">Videos</h2>
               <div className="video-container">
-                <Video item={details.id}/>
+                <Video/>
               </div>
             </div>
 
             <div className="similar-content">
               <h2 className="cont-h2">{`Similar ${category}`}</h2>
-              <Hr_Slider category={category} type="Similar" id={details.id}/>
+              <Hr_Slider category={category} type="similar" id={details.id}/>
             </div>
           </div>  
         </div>

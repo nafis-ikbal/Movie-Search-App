@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import "./card.css";
 import * as root from "../constant_JS/RootPath.js";
-import { modifyTitle } from "../constant_JS/title.js";
 import {category} from "../../api/TMDB_Data.js";
 import { URL } from "../../api/Api.js";
 import CardButton from "../button/CardButton.jsx";
@@ -13,7 +12,7 @@ export default function Card(p_card) {
 
     //dynamic URL for routing
     const link = 
-        `/${root.Home_Page}/${category[p_card.category]}/${modifyTitle(item.title || item.name)} `;
+        `/${root.Home_Page}/${category[p_card.category]}/${item.id} `;
 
     const poster = URL.w500Image(item.poster_path || item.backdrop_path);
 

@@ -7,8 +7,8 @@ import "./header.css";
 
 const NavBar = [
     {Name: "Home", path: `/${root.Home_Page}` , icon: faHouse},
-    {Name: "Movies", path: `/${root.Home_Page}/movies`, icon: faFilm},
-    {Name: "TV Series", path: `/${root.Home_Page}/tv-series`, icon: faTv},
+    {Name: "Movies", path: `/${root.Home_Page}/movie`, icon: faFilm},
+    {Name: "TV Series", path: `/${root.Home_Page}/tv`, icon: faTv},
 ];
 
 export default function Header() {

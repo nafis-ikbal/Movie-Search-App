@@ -1,12 +1,20 @@
 // import './App.css'
-import Container from "./Container"
+import "swiper/css";
+import { BrowserRouter } from "react-router-dom";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import Route_Component from "./routes/Route_Component";
 
 function App() {
 
   return (
-    <>
-      <Container/>
-    </>
+    <BrowserRouter>
+      <>
+        <Header/>
+        <Route_Component/>
+        <Footer/>
+      </>
+    </BrowserRouter>
   )
 }
 

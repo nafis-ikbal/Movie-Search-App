@@ -1,8 +1,18 @@
 .slider {
-    width: 100%;
-    height: 68vh;
+  width: 100%;
+  height: 68vh;   
+  overflow: hidden; 
+}
+
+.swiper {
+  height: 100%;   
+}
+
+.swiper-wrapper {
+  height: 100%;   
 }
 
 .swiper-slide {
   width: 20%;
+  height: 100%;   
 }
