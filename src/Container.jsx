@@ -1,13 +1,13 @@
-import { BrowserRouter } from "react-router-dom";
-import "./Container.css";
-import Category from "./pages/category_page/Category";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import * as root from "../src/components/constant_JS/RootPath";
+import Header from "./components/header/Header";
+import Details from "./pages/details_page/Details";
 
 export default function Container() {
     return(
         <BrowserRouter>
-            <div className="mainc">
-                <Category/>
-            </div>
+          <Header/>
+          {/* <Details/> */}
         </BrowserRouter>
     );
 }
