@@ -24,13 +24,13 @@ It is a React-based web app that allows users to search for movies and TV Series
 
 ## 📸 Screenshots  
 
-<img src="/public/home1.png" alt="Home Page" width="500" height="450">
-<img src="/public/home2.png" alt="Home Page" width="500" height="450">
-<img src="/public/home3.png" alt="Home Page" width="500" height="450">
-<img src="/public/movie_page.png" alt="movie page" width="500" height="450">
-<img src="/public/search_movie.png" alt="search movie" width="500" height="450">
-<img src="/public/search_tv.png" alt="search tv" width="500" height="450">
-<img src="/public/details.png" alt="details page" width="500" height="450">
-<img src="/public/cast.png" alt="cast" width="500" height="450">
-<img src="/public/video.png" alt="video" width="500" height="450">
-<img src="/public/similar.png" alt="similar" width="500" height="450">
+<img src="/public/home1.png" alt="Home Page" width="700" height="550">
+<img src="/public/home2.png" alt="Home Page" width="700" height="550">
+<img src="/public/home3.png" alt="Home Page" width="700" height="550">
+<img src="/public/movie_page.png" alt="movie page" width="700" height="550">
+<img src="/public/search_movie.png" alt="search movie" width="700" height="550">
+<img src="/public/search_tv.png" alt="search tv" width="700" height="550">
+<img src="/public/details.png" alt="details page" width="700" height="550">
+<img src="/public/cast.png" alt="cast" width="700" height="550">
+<img src="/public/video.png" alt="video" width="700" height="550">
+<img src="/public/similar.png" alt="similar" width="700" height="550">
