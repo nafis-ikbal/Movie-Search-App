@@ -1,12 +1,36 @@
-# React + Vite
+# 🎬 Movie Search App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It is a React-based web app that allows users to search for movies and TV Series, view details, and explore trending content using the **TMDB API**.  
 
-Currently, two official plugins are available:
+## 🚀 Features  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 **Search Movies & TV Shows** by title/name.  
+- **Browse Trending & Popular Content** fetched from TMDB API.  
+- **Detailed Information Pages** with movie/TV details (poster, title, overview, rating, release date, genre, cast, videos).
+- **View Similar movies/tv series** when navigate a movie/tv series
+- **Navigate** through movies or tv series
+- **Modern UI** with Swiper sliders and custom styling.  
 
-## Expanding the ESLint configuration
+## ⚠️ Limitations / Known Issues  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ❌ The app is currently **not fully responsive** on all screen sizes.  
+- ❌ Some pages may take time to load due to API rate limits.
+
+## 🛠️ Tech Stack  
+
+- **Frontend:** React, React Router, Swiper.js,  Custom CSS  
+- **API:** TMDB API ([https://www.themoviedb.org/](https://www.themoviedb.org/))  
+- **Tools:** Vite , Axios  
+
+## 📸 Screenshots  
+
+<img src="/public/home1.png" alt="Home Page" width="500" height="450">
+<img src="/public/home2.png" alt="Home Page" width="500" height="450">
+<img src="/public/home3.png" alt="Home Page" width="500" height="450">
+<img src="/public/movie_page.png" alt="movie page" width="500" height="450">
+<img src="/public/search_movie.png" alt="search movie" width="500" height="450">
+<img src="/public/search_tv.png" alt="search tv" width="500" height="450">
+<img src="/public/details.png" alt="details page" width="500" height="450">
+<img src="/public/cast.png" alt="cast" width="500" height="450">
+<img src="/public/video.png" alt="video" width="500" height="450">
+<img src="/public/similar.png" alt="similar" width="500" height="450">

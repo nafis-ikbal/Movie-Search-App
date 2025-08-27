@@ -5,6 +5,7 @@
 }
 
 .date {
+  margin: 1rem 0;
   font-size: 1.2rem;
 }
 
@@ -16,6 +17,7 @@
 }
 
 .genre {
+  margin: 1.2rem 0;
   width: 100%;
 }
 
@@ -31,6 +33,7 @@
 }
 
 .item-overview {
+  margin: 2rem 0;
   font-size: 1.5rem;
   font-weight: 550;
   font-style: italic;
@@ -59,10 +62,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .cast-container h2 {
+  margin: 2rem 0;
   font-size: 1.6rem;
   letter-spacing: 3px;
   background: linear-gradient(to right,
